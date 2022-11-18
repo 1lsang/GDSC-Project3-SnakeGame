@@ -1,6 +1,6 @@
-import appStyle from "./style/hellow.module.css"
-
 const App = document.getElementById("app")
 
-App.classList.add(appStyle.appFont)
-App.innerHTML = `<div class="hellow">Vanilla template</div>`
+const ctx = App.getContext("2d")
+
+ctx.fillStyle = "blue"
+ctx.fillRect(0, 0, 100, 100)
