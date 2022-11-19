@@ -1,6 +1,6 @@
-const App = document.getElementById("app")
+/* eslint-disable no-new */
+import App from "./app.js"
 
-const ctx = App.getContext("2d")
-
-ctx.fillStyle = "blue"
-ctx.fillRect(0, 0, 100, 100)
+window.onload = () => {
+    new App()
+}
