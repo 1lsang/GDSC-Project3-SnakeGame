@@ -7,12 +7,73 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- reset css -->
         <link rel="stylesheet" href="./reset.css" />
-
+        <link rel="stylesheet" href="./style/style.css" />
         <!-- app -->
         <script type="module" src="./index.js"></script>
     </head>
 
     <body>
+        <!-- 일시정지 버튼 -->
+        <div class="pause-btn hidden">
+            <div class="pause button_8bit">
+                <div class="wrapper_8bit">
+                    <button class="inner">||</button>
+                </div>
+            </div>
+        </div>
 
+        <!-- 게임 시작 UI -->
+        <div class="ui start-ui">
+            <h1 class="title">
+                <span>🐍</span>
+                <span>S</span>
+                <span>N</span>
+                <span>A</span>
+                <span>K</span>
+                <span>E</span>
+                <span> </span>
+                <span>G</span>
+                <span>A</span>
+                <span>M</span>
+                <span>E</span>
+                <span>🐍</span>
+            </h1>
+            <div class="start button_8bit">
+                <div class="wrapper_8bit">
+                    <button class="inner">PRESS START!</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 일시 정지 UI -->
+        <div class="ui pause-ui hidden">
+            <div class="continue button_8bit">
+                <div class="wrapper_8bit">
+                    <button class="inner">CONTINUE</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- GAME OVER UI -->
+        <div class="ui game-over hidden">
+            <h1 class="title">
+                <span>💀</span>
+                <span>G</span>
+                <span>A</span>
+                <span>M</span>
+                <span>E</span>
+                <span> </span>
+                <span>O</span>
+                <span>V</span>
+                <span>E</span>
+                <span>R</span>
+                <span>💀</span>
+            </h1>
+            <div class="start button_8bit">
+                <div class="wrapper_8bit">
+                    <button class="inner">RESTART!</button>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
