@@ -34,6 +34,15 @@ body {
     background-color: black;
 }
 
+canvas {
+    max-height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 8px white solid;
+}
+
 .ui {
     z-index: 10;
     position: absolute;
@@ -58,7 +67,7 @@ body {
     color: white;
     font-size: 2rem;
     font-weight: bold;
-    background: #555555;
+    background: cornflowerblue;
 }
 
 .start .inner,
@@ -187,8 +196,8 @@ body {
 
 .inner {
     position: relative;
-    border-bottom: 4px solid black;
-    border-right: 4px solid black;
+    border-bottom: 4px solid slateblue;
+    border-right: 4px solid slateblue;
     /* box-sizing: border-box; */
 }
 
@@ -199,7 +208,7 @@ body {
     height: 6px;
     display: block;
     position: absolute;
-    background: black;
+    background: slateblue;
 }
 
 .inner::before {
@@ -213,9 +222,9 @@ body {
 }
 
 .inner:active {
-    border-top: 4px solid black;
+    border-top: 4px solid slateblue;
     border-bottom: none;
-    border-left: 4px solid black;
+    border-left: 4px solid slateblue;
     border-right: none;
 }
 
